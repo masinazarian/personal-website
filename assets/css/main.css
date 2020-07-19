@@ -1,0 +1,37 @@
+html, body
+{
+  background-color: #fff;
+  color: #000;
+  letter-spacing: 0.5px;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Noto Serif', serif;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  color: #1585a1;
+  line-height: 2rem;
+}
+
+a, a:visited {
+  color: #35495e;
+  text-decoration: none;
+}
+
+* {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+ul {
+  padding-left: 0;
+}
+ul > li {
+  list-style: none;
+  padding-bottom: 0.5rem;
+}
+p {
+  padding-bottom: 0.5rem;
+}
