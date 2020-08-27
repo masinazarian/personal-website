@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TensorFlow.js Tutorial</title>
+
+  <!-- Import TensorFlow.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+  <!-- Import tfjs-vis -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+
+  <!-- Import the main script file -->
+  <script src="script.js"></script>
+
+</head>
+<body>
+<input type="number" id="userId" name="userId" value=678>
+<button onclick="run()">Train for this user id!</button>
+
+<table style="width:50%">
+  <tr>
+    <th>Before in-device reranking</th>
+    <th>After in-device reranking</th> 
+  </tr>
+  <tr>
+    <td><pre id="pre"></pre></td>
+    <td><pre id="post"></pre></td>
+  </tr>
+</table>
+	
+	
+</body>
+</html>
