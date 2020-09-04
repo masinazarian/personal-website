@@ -16,7 +16,7 @@
     "cross-env": "^5.0.1",
     "express": "^4.15.3",
     "nuxt": "^1.0.0-rc3",
-    "sequelize": "^4.19.0",
+    "sequelize": "^5.15.1",
     "source-map-support": "^0.4.15",
     "sqlite": "^2.8.0",
     "sqlite3": "^5.0.0"
